@@ -17,7 +17,6 @@ const rooms = {};
 
 
 
-
 io.on("connection", socket => {
   socket.emit("print", "connected")
   console.log("connected")
